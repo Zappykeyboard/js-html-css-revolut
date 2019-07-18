@@ -38,8 +38,8 @@ nav {
 
 .drop-down{
   position: absolute;
-  min-width: 200%;
-  left: -50%;
+  min-width: 200px;
+  left: -75px;
   display: none;
   box-shadow: 1px 0px 10px -5px;
 }
@@ -49,8 +49,11 @@ nav {
 }
 
 .drop-item {
-  text-align: center;
   height: 4rem;
+}
+
+.text-center{
+  text-align: center;
 }
 
 .drop-item:hover {
