@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,30 +8,41 @@
   <link rel="stylesheet" href="style.css">
   <title>Revolut</title>
 </head>
+
 <body>
   <!--header-->
   <header>
-    <nav>
-      <div id="nav-left">
-        <div id="nav-logo">Logo</div>
-        <div id="nav-personal-link">PERSONAL</div>
-        <div id="nav-business-link">BUSINESS</div>
-      </div>
+    <div class="container">
+      <nav>
+        <div id="nav-left">
+          <div id="nav-logo">Logo</div>
+          <div id="nav-personal-link">PERSONAL</div>
+          <div id="nav-business-link">BUSINESS</div>
+        </div>
 
-      <div id="nav-right">
-        <ul>
-          <li id="nav-pricing">pricing</li>
-          <li id="nav-accounts">accounts</li>
-          <li id="nav-products">products</li>
-          <li id="nav-company">company</li>
-          <li id="nav-help">help</li>
-          <li id="nav-language">language</li>
-          <li id="nav-button">Get the App</li>
-        </ul>
-      </div>
-    </nav>
+        <div id="nav-right">
+          <ul id="nav-list">
+            <li id="nav-pricing">pricing</li>
+            <li id="nav-accounts" class="with-drop">
+              <a href="#">Accounts</a>
+              <div class="drop-down">
+                <div class="drop-item"><a href="#" class="drop-link">item</a></div>
+                <div class="drop-item"><a href="#" class="drop-link">item</a></div>
+                <div class="drop-item"><a href="#" class="drop-link">item</a></div>
+              </div>
+            </li>
+            <li id="nav-products">products</li>
+            <li id="nav-company">company</li>
+            <li id="nav-help">help</li>
+            <li id="nav-language">language</li>
+            <li id="nav-button">Get the App</li>
+          </ul>
+        </div>
+      </nav>
+    </div>
   </header>
 
 
 </body>
+
 </html>
