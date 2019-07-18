@@ -63,4 +63,5 @@ nav {
 .drop-item a {
   line-height: 4rem;
   text-decoration: none;
+  margin-left: 10px;
 }
