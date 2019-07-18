@@ -36,8 +36,11 @@ nav {
   position: relative;
 }
 
-
 .drop-down{
   position: absolute;
   display: none;
+}
+
+.active {
+  display: block;
 }
