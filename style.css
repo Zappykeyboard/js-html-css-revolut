@@ -52,9 +52,9 @@ nav {
   height: 4rem;
 }
 
-.text-center{
+/* .text-center{
   text-align: center;
-}
+} */
 
 .drop-item:hover {
   background: rgb(179, 177, 177);
